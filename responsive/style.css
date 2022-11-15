@@ -1,0 +1,29 @@
+body {
+  background: aqua;
+}
+
+nav {
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: orange;
+    transition: 5s;
+  }
+
+  nav {
+    display: block;
+  }
+}
