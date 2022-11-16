@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+.lil-body {
+  max-width: 1700px;
+  width: 100%;
+  margin: 30px 30px 0px 30px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.changer {
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
+.nav-mid {
+  display: flex;
+  width: 70%;
+}
+
+.nav-right {
+  background-color: green;
+  margin: 10px 0px 10px 0px;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.pink {
+  background-color: pink;
+  margin: 10px;
+}
+
+.pink-2 {
+  background-color: pink;
+}
+
+nav {
+  max-width: 100%;
+}
+
+.left-side {
+  max-width: 20%;
+  width: 100%;
+  height: 800px;
+  margin-top: 10px;
+  visibility: hidden;
+}
+
+main {
+  max-width: 80%;
+  width: 100%;
+  height: 800px;
+  margin: 10px 0px 0px 10px;
+}
+
+footer {
+  max-width: 100%;
+  width: 100%;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.right-footer {
+  margin-right: 50px;
+}
+
+/*  Inside    */
+
+.left-image img {
+  max-width: 200px;
+  width: 100%;
+  height: 100px;
+  border-radius: 20px;
+
+  /* margin: 40px 0px 0px 70px; */
+}
+
+.lil-link {
+  flex-direction: column;
+  font-size: 25px;
+  /* margin: 40px 0px 0px 100px; */
+}
+
+/* .lil-link:nth-child(2),
+.lil-link:nth-child(3) {
+  margin-top: 29px;
+} */
+
+.middle-santa {
+  margin: 30px 0px 30px 0px;
+}
+
+.clear a {
+  text-decoration: none;
+  color: black;
+}
+
+/*  Inside    */
+
+/*    Inside of Main  */
+
+.main-lil-div {
+  width: 200px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: aquamarine;
+  flex-direction: column;
+  margin: 20px 0px 0px 40px;
+}
+
+.main-lil-pic img {
+  width: 140px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.main-alil-div {
+  padding: 0px 0px 50px 20px;
+}
+
+.changer-2 {
+  margin-top: 0;
+}
+
+.main-right-thick {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.block {
+  display: block;
+}
+
+.left-image-1 img {
+  max-width: 200px;
+  max-height: 100px;
+  width: 100%;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.left-side-tablet {
+  visibility: hidden;
+  margin-top: 10px;
+  height: 0;
+}
+
+/*    Inside of Main  */
+
+/*   Responsive   */
+
+@media screen and (max-width: 740px) {
+  .left-side-tablet {
+    visibility: visible;
+    height: 200px;
+  }
+
+  .left-side {
+    width: 0;
+  }
+
+  .left-side {
+    width: 0;
+  }
+  
+}
+
+@media screen and (min-width: 741px) {
+  .left-side {
+    visibility: visible;
+  }
+}
+
+/*   Responsive   */
