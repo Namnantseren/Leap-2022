@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>bootstrap</title>
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid col-7">
+          <a class="navbar-brand" href="#">Админ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Хэрэглэгч</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ангилал</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Мэдээ
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Мэдээ</a></li>
+                  <li><a class="dropdown-item" href="#">Сэтгэгдэл</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Шинэ Мэдээ</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Сэдэв</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn bg-light h1 "type="submit">Гарах</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <main class="w-25 container">
+        <div class="container d-grid gap-3 mt-4">
+
+            <nav class="navbar">
+                <a class="navbar-brand h1">Ангилал</a>
+                <form class="form-inline">
+                  <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Шинэ</button>
+                </form>
+            </nav>
+
+            <div class="container card mt-2 ">
+                <div class="row  card-body">
+                    <h5 class="card-title">Улс төр</h5>
+                </div>
+                <form class="d-flex container">
+                    <button class="btn bg-light h1 "type="submit">Засах</button>
+                </form>
+            </div>
+    
+            <div class="container card ">
+                <div class="row  card-body">
+                    <h5 class="card-title">Нийгэм</h5>
+                </div>
+                <form class="d-flex container">
+                    <button class="btn bg-light h1 "type="submit">Засах</button>
+                </form>
+            </div>
+    
+            <div class="container card">
+                <div class="row  card-body">
+                    <h5 class="card-title">Спорт</h5>
+                </div>
+                <form class="d-flex container">
+                    <button class="btn bg-light h1 "type="submit">Засах</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
