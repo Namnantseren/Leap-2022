@@ -1,0 +1,36 @@
+.mid {
+    max-height: 800px;
+    height: 100%;
+    margin-top: 200px;
+}
+
+.blue {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transition: 1s ease-out;
+}
+
+.blue:active {
+    width: 1500px;
+    transition: 0.5s;
+    transition: 1s ease-in;
+}
+
+.green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: 1s ease-out;
+}
+
+.green:hover {
+    width: 1500px;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.foot {
+    margin-top: 100px;
+}

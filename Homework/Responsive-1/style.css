@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1200px){
+    body {
+        background-color: pink;
+    }
+
+    .hoyr, .gurav, .dorov, .tav, .zurgaa {
+        visibility: hidden;
+    }
+}
+
+
+@media screen and (max-width: 1199px){
+    body {
+        background-color: rgb(235, 103, 125);
+    }
+
+    .neg, .gurav, .dorov, .tav, .zurgaa {
+        visibility: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 992px){
+    body {
+        background-color: aqua;
+    }
+
+    .neg, .hoyr, .dorov, .tav, .zurgaa {
+        visibility: hidden;
+    }
+
+    .gurav {
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body {
+        background-color: rgb(145, 103, 68);
+    }
+
+    .neg, .hoyr, .gurav, .tav, .zurgaa {
+        visibility: hidden;
+    }
+
+    .dorov {
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 576px){
+    body {
+        background-color: green;
+    }
+    .neg, .hoyr, .gurav, .dorov, .zurgaa {
+        visibility: hidden;
+    }
+    .tav {
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 576px){
+    body {
+        background-color: green;
+    }
+    .neg, .hoyr, .gurav, .dorov, .tav {
+        visibility: hidden;
+    }
+    .zurgaa {
+        visibility: visible;
+    }
+}

@@ -15,6 +15,7 @@
         <div class="container-fluid col-7">
           <a class="navbar-brand" href="#">Админ</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -46,41 +47,54 @@
         </div>
     </nav>
 
-    <main class="w-25 container">
+    <main class="w-50 container">
         <div class="container d-grid gap-3 mt-4">
 
             <nav class="navbar">
                 <a class="navbar-brand h1">Ангилал</a>
-                <form class="form-inline">
-                  <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Шинэ</button>
-                </form>
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Ангилал нэмэх</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="mb-3">
+                          <label for="formGroupExampleInput" class="form-label">Нэр</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ангилалын нэр">
+                        </div>
+                      </div>
+                      <div class="modal-footer justify-content-between">
+                        <button class="btn btn-outline-danger" data-bs-toggle="modal">Гарах</button>
+                        <button class="btn btn-primary" data-bs-toggle="modal">Гарах</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn btn-outline-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Шинэ</a>
             </nav>
 
-            <div class="container card mt-2 ">
-                <div class="row  card-body">
-                    <h5 class="card-title">Улс төр</h5>
+            <div class="container card mt-2">
+                <div class="d-flex card-body justify-content-between">
+                    <h5 class="card-title mt-2">Улс төр</h5>
+                    <button class="btn bg-light h1 ms-5"type="submit">Засах</button>
                 </div>
-                <form class="d-flex container">
-                    <button class="btn bg-light h1 "type="submit">Засах</button>
-                </form>
-            </div>
-    
-            <div class="container card ">
-                <div class="row  card-body">
-                    <h5 class="card-title">Нийгэм</h5>
-                </div>
-                <form class="d-flex container">
-                    <button class="btn bg-light h1 "type="submit">Засах</button>
-                </form>
+                
             </div>
     
             <div class="container card">
-                <div class="row  card-body">
-                    <h5 class="card-title">Спорт</h5>
+                <div class="d-flex card-body justify-content-between">
+                    <h5 class="card-title mt-2">Нийгэм</h5>
+                    <button class="btn bg-light h1 ms-2"type="submit">Засах</button>
                 </div>
-                <form class="d-flex container">
-                    <button class="btn bg-light h1 "type="submit">Засах</button>
-                </form>
+            </div>
+    
+            <div class="container card">
+                <div class="d-flex card-body justify-content-between">
+                    <h5 class="card-title mt-2">Спорт</h5>
+                    <button class="btn bg-light h1 ms-2"type="submit">Засах</button>
+                </div>
             </div>
         </div>
     </main>
