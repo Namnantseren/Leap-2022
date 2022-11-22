@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     height: 100vh;
@@ -46,4 +47,54 @@ fieldset {
 
 .space {
     margin-bottom: 15px;
+=======
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink {
+    background-color: rgb(173, 60, 79);
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+legend {
+    padding: 0 6px;
+    margin: auto;
+}
+
+.slashed {
+    border: dashed rgb(114, 12, 12);
+    background-color: rgb(224, 240, 240);
+}
+
+.wh {
+    width: 550px;
+    height: 600px;
+}
+
+.flex {
+    display: flex;
+}
+
+fieldset {
+    padding: 20px;
+    margin: 15px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.space {
+    margin-bottom: 15px;
+>>>>>>> 1cf3f8e58b9d76fd2ccf57f0ed47d5b7415e0cba
 }
