@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     height: 100vh;
     margin: 0;
@@ -17,4 +18,25 @@ p {
 
 .bt {
     margin-top: 10px;
+=======
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.bt {
+    margin-top: 10px;
+>>>>>>> 1cf3f8e58b9d76fd2ccf57f0ed47d5b7415e0cba
 }

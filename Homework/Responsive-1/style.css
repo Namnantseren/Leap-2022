@@ -12,7 +12,7 @@ body {
     }
 
     .hoyr, .gurav, .dorov, .tav, .zurgaa {
-        visibility: hidden;
+        display: none;
     }
 }
 
@@ -23,7 +23,7 @@ body {
     }
 
     .neg, .gurav, .dorov, .tav, .zurgaa {
-        visibility: hidden;
+        display: none;
     }
     
 }
@@ -34,12 +34,13 @@ body {
     }
 
     .neg, .hoyr, .dorov, .tav, .zurgaa {
-        visibility: hidden;
+        display: none;
     }
 
     .gurav {
-        visibility: visible;
+        display: contents;
     }
+
 }
 
 @media screen and (max-width: 768px){
@@ -48,12 +49,13 @@ body {
     }
 
     .neg, .hoyr, .gurav, .tav, .zurgaa {
-        visibility: hidden;
+        display: none;
     }
 
     .dorov {
-        visibility: visible;
+        display: contents;
     }
+
 }
 
 @media screen and (max-width: 576px){
@@ -61,10 +63,11 @@ body {
         background-color: green;
     }
     .neg, .hoyr, .gurav, .dorov, .zurgaa {
-        visibility: hidden;
+        display: none;
     }
+
     .tav {
-        visibility: visible;
+        display: contents;
     }
 }
 
@@ -73,9 +76,10 @@ body {
         background-color: green;
     }
     .neg, .hoyr, .gurav, .dorov, .tav {
-        visibility: hidden;
+        display: none;
     }
+
     .zurgaa {
-        visibility: visible;
+        display: contents;
     }
 }
