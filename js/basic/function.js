@@ -22,5 +22,6 @@ function fToC(fahrenheit)
   let message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
     console.log(message);
 } 
-cToA(20);
+
+cToF(20);
 fToC(45);
