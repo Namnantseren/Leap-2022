@@ -65,51 +65,91 @@
 
 /* IF ELSE SHortcut */
 
-if (day==1 || day==1 || day==1 || day==1 || day==1 || day==1 ) {
-    console.log("Second-Error");
-}
+// if (day==1 || day==1 || day==1 || day==1 || day==1 || day==1 ) {
+//     console.log("Second-Error");
+// }
 
 /* IF ELSE SHortcut */
 
-if (x > y) {
-    if(x>z) {
-        console.log(x, "n hamgiin ig");
-    }else {
-        if(y>z) {
-            console.log(y, "n hamgiin ih");
-        }else {
-            console.log(z, "n hamgiin ih");
-        }
-    }
-} else {
-    console.log(y, "n hamgiin ig");
-}
+// if (x > y) {
+//     if(x>z) {
+//         console.log(x, "n hamgiin ig");
+//     }else {
+//         if(y>z) {
+//             console.log(y, "n hamgiin ih");
+//         }else {
+//             console.log(z, "n hamgiin ih");
+//         }
+//     }
+// } else {
+//     console.log(y, "n hamgiin ig");
+// }
 
-if(x>y && x>z) {
-    console.log(x, "n hamgiin ih");
-}else if (y>z) {
-    console.log (y, "n hamgiin ih");
-}else {
-    console.log(z, "n hamgiin ih");
-}
-
-/* SHortcut   */
-
-let age = 21;
-
-if (age<21) {
-    console.log("You are not allowed to drink alchohol");
-}else {
-    console.log("You are allowed to drink alchohol");
-}
-
-Condition ? true : false; //Main 
-
-age<21 ? console.log("YOu are not allowed to drink alchohol"): console.log("YOu are allowed to drink alchohol");
-
-myState = age >=10 && age <=18 ? "teenage":"adult";
+// if(x>y && x>z) {
+//     console.log(x, "n hamgiin ih");
+// }else if (y>z) {
+//     console.log (y, "n hamgiin ih");
+// }else {
+//     console.log(z, "n hamgiin ih");
+// }
 
 /* SHortcut   */
 
+// let age = 21;
 
+// if (age<21) {
+//     console.log("You are not allowed to drink alchohol");
+// }else {
+//     console.log("You are allowed to drink alchohol");
+// }
+
+// Condition ? true : false; //Main 
+
+// age<21 ? console.log("YOu are not allowed to drink alchohol"): console.log("YOu are allowed to drink alchohol");
+
+// myState = age >=10 && age <=18 ? "teenage":"adult";
+
+/* SHortcut   */
+
+// let babySharkLyrics = "1289379182739";
+// console.log(babySharkLyrics[babySharkLyrics.length - 1]);
+// console.log(babySharkLyrics.substr(4, 5));
+
+// let firstname = 'John';
+// let fullname = firstname.concat('','Smith');
+// console.log(fullname); //"John Smith"
+// console.log(firstname); //"John"
+
+// let str = "Index ni avah ni";
+// console.log(str.indexOf("ni"))
+
+
+//   HARD AS FUCK
+
+
+// let myString = "abc is alphabet is not";
+// console.log(myString.indexOf("is"));
+// let firstPart = myString.substring(0, myString.indexOf("is"));
+// let lastPart = myString.substring(
+//   myString.indexOf("is") + "is".length,
+//   myString.length
+// );
+// console.log(lastPart);
+// myString = firstPart.concat(lastPart);
+
+// firstPart = myString.substring(0, myString.indexOf("is"));
+// lastPart = myString.substring(
+//   myString.indexOf("is") + "is".length,
+//   myString.length
+// );
+// myString = firstPart.concat(lastPart);
+// console.log(myString);
+
+
+//   HARD AS FUCK
+
+
+// console.log(Math.floor(Math.random()* 6) +1);
+
+// console.log(Math.floor(Math.random() * (Math.abs(a - b) + 1)) + Math.min(a, b)); 
 
