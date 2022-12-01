@@ -23,16 +23,14 @@
 
 // =============================== Loop-2 ====================================== //
 
-let number = 100;
 let count1 = 0;
 
-while (count1 < number) {
-    
-    if (number % 3 === count1) {
-        // count1++;
-    }
+while (count1 < 100) {
 
-    // count1--;
+    if(count1 % 3 == 0) {
+        console.log(count1);
+    }
+    count1++;
 }
 
 console.log(count1);
