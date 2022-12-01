@@ -23,17 +23,33 @@
 
 // =============================== Loop-2 ====================================== //
 
+let number = 100;
 let count1 = 0;
 
-while (count1 < 100) {
+while (0 < number) {
 
-    if(count1 % 3 == 0) {
-        console.log(count1);
+    if (number % 3 === 0) {
+        count1++;
     }
-    count1++;
+
+    number--;   
 }
 
-console.log(count1);
+ console.log(count1);
+
+// ================================ Nemelt =================================//
+
+// let count2 = 0;
+
+// while (count2 < 100) {
+
+//     if(count2 % 3 == 0) {
+//         console.log(count2);
+//     }
+//     count2++;
+// }
+
+// console.log(count2);
 
 
 // ================================ Loop-3 =============================== //
