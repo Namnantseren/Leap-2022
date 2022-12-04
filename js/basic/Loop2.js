@@ -65,7 +65,7 @@
 // for (let row = 1; row <= n; row++){
 //     for (let col = 1; col <= n; col++) {
 //         if (row == 1 || row == n || col == 1 || col == n ){
-//             output = output + "* ";
+//             output = output + "*";
 //         }else {
 //             output = output + " ";
 //         }
@@ -75,6 +75,16 @@
 // }
 
 // console.log(output);
+
+let n = 6;
+
+for (let i = 1; i <= n; i++){
+    let output = "*"
+    for ( let j = 1; j < i; j++) {
+        output += "*";
+    }
+    console.log(output);
+}
 
 
 // ================================= _ select ========================= //
