@@ -117,18 +117,18 @@
 // ================================= Password-2 ========================= //
 
 
-let n = 55;
-let prime = true;
+// let n = 55;
+// let prime = true;
 
-for (let i = 2; i < n; i++) {
-    if (n % i == 0) {
-        prime = false;
-        break;
-    }
-}
+// for (let i = 2; i < n; i++) {
+//     if (n % i == 0) {
+//         prime = false;
+//         break;
+//     }
+// }
 
-if (prime == true) {
-    console.log("Yes");
-}else {
-    console.log("No");
-}
+// if (prime == true) {
+//     console.log("Yes");
+// }else {
+//     console.log("No");
+// }
