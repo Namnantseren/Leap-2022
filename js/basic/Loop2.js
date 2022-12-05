@@ -76,7 +76,7 @@
 
 // console.log(output);
 
-let n = 6;
+let n = 5;
 
 for (let i = 1; i <= n; i++){
     let output = "*"
@@ -142,3 +142,24 @@ for (let i = 1; i <= n; i++){
 // }else {
 //     console.log("No");
 // }
+
+
+//============================= triangle =============================//
+
+// let output = "";
+// let count = 1;
+
+// for (let row = 1; row <= 4; row++) {
+//     for (let dash = 4 - row; dash > 0; dash--){
+//         output += " ";
+//     }
+//     for (let num = 1; num <= row; num++) {
+//         output +=count + " ";
+//         count++;
+//     }
+//     output += "\n"
+// }
+
+// console.log(output);
+
+//============================= triangle =============================//
