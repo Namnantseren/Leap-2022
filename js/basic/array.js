@@ -52,8 +52,8 @@
 
 //================
 
-let now = new Date();
-console.log(now);
+// let now = new Date();
+// console.log(now);
 
-let Jan01_1970 = new Date(0);
-console.log(Jan01_1970);
+// let Jan01_1970 = new Date(0);
+// console.log(Jan01_1970);
