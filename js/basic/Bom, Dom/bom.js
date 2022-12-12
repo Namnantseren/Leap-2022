@@ -71,28 +71,71 @@
 
 //=====================================  Timer ==============================//
 
-let rootElement = document.getElementById("root");
-// document.getElementById("root")[0].style.fontSize = "20px";
+// let rootElement = document.getElementById("root");
+// // document.getElementById("root")[0].style.fontSize = "20px";
 
-let sec = 0;
-let min = 0;
-let hour = 0;
+// let sec = 0;
+// let min = 0;
+// let hour = 0;
 
-setInterval(function () {
-    sec++;
-    if (sec == 60){
-        sec = 0;
-        min++;
-    }
-    if (min == 60){
-        min = 0;
-        hour++
-    }
-    if (hour == 24) {
-        hour = 0;
-    }
-    rootElement.innerText = `${hour < 10 ? "0" : ""}${hour}:${min < 10 ? "0" : ""}${min}:${sec}`
-}, 1);
+// setInterval(function () {
+//     sec++;
+//     if (sec == 60){
+//         sec = 0;
+//         min++;
+//     }
+//     if (min == 60){
+//         min = 0;
+//         hour++
+//     }
+//     if (hour == 24) {
+//         hour = 0;
+//     }
+//     rootElement.innerText = `${hour < 10 ? "0" : ""}${hour}:${min < 10 ? "0" : ""}${min}:${sec}`
+// }, 1);
 
 //=====================================  Timer ==============================//
 
+// let rootElement = document.getElementById("root");
+
+// let sec = 0;
+// let min = 0;
+// let millie = 0;
+
+// setInterval(function () {
+//     millie++;
+//     if (millie == 300){
+//         millie = 0;
+//         sec++;
+//     }
+//     if (sec == 60){
+//         sec = 0;
+//         min++
+//     }
+//     if (min == 60) {
+//         min = 0;
+//     }
+//     rootElement.innerText = `${min < 10 ? "0" : ""}${min}:${sec < 10 ? "0" : ""}${sec}:${millie < 10 ? "00" : ""}${millie}`
+// }, 1);
+
+
+let rootElement = document.getElementById("root").innerHTML = "<div class='topwidth'></div><div class='bottomwidth'></div>"
+let modeElement = document.getElementById("mode").innerHTML = "<div class='topwidth'></div><div class='bottomwidth'></div>"
+
+document.getElementById("root").style.backgroundColor = "black"
+document.getElementById("root").style.maxWidth = "100%"
+document.getElementById("root").style.width = "600px"
+document.getElementById("root").style.height = "100px"
+
+document.getElementById("mode").style.backgroundColor = "Orange"
+document.getElementById("mode").style.maxWidth = "100%"
+document.getElementById("mode").style.width = "600px"
+document.getElementById("mode").style.height = "100px"
+
+setInterval(function() {
+    rootElement++ 
+    if(rootElement == '500px'){
+        rootElement = 0;
+        modeElement++
+    }
+}) 
