@@ -1,24 +1,25 @@
-// document.getElementsByClassName("root1")[0].innerHTML = "<div class='root'>HOHO</div>"; //text
-document.querySelector("div").style.height = "300px"
-
-let count = 0;
-let count1 = 150;
+let color = 0;
+let color1 = 0;
+document.getElementById("root").style.height = "200px"
+// document.getElementById("root").style.width = "200px"
 
 setInterval(function(){
-    count++
-    document.querySelector("div").style.width = `${count}px`;
-    if(count1 <= 255) {
-        count1++
-        document.getElementById("root").style.backgroundColor = `rgba(${count1},55,25)`;
-    }
 
-    // if(count1 >= 255 ) {
-    //     count1--
-    //     document.getElementById("root").style.backgroundColor = `rgba(${count1},55,25)`;
-    // }
-    console.log(count1);
-    clearInterval(count === 1000);
-    // debugger;
+    for (let count = 0; count == 1000; count++) {
+        count++
+        color++
+        document.getElementById("root").style.width = `${count}px`
+        document.getElementById("root").style.backgroundColor = `rgb(${color},255,55)`
+        if (count == 1000){
+            count--
+            document.getElementById("root").style.width = `${count}px`
+            document.getElementById("root").style.backgroundColor = `rgb(${color},255,55)`
+        }
+    }
     
-}, 1);
+    
+    // clearInterval(count === 1000);
+},10)
+
+// console.log(count);
 
