@@ -119,23 +119,24 @@
 // }, 1);
 
 
-let rootElement = document.getElementById("root").innerHTML = "<div class='topwidth'></div><div class='bottomwidth'></div>"
-let modeElement = document.getElementById("mode").innerHTML = "<div class='topwidth'></div><div class='bottomwidth'></div>"
+// let rootElement = document.getElementById("root").innerHTML = "<div class='topwidth'></div><div class='bottomwidth'></div>"
+// let modeElement = document.getElementById("mode").innerHTML = "<div class='topwidth'></div><div class='bottomwidth'></div>"
 
-document.getElementById("root").style.backgroundColor = "black"
-document.getElementById("root").style.maxWidth = "100%"
-document.getElementById("root").style.width = "600px"
-document.getElementById("root").style.height = "100px"
+// document.getElementById("root").style.backgroundColor = "black"
+// document.getElementById("root").style.maxWidth = "100%"
+// document.getElementById("root").style.width = "600px"
+// document.getElementById("root").style.height = "100px"
 
-document.getElementById("mode").style.backgroundColor = "Orange"
-document.getElementById("mode").style.maxWidth = "100%"
-document.getElementById("mode").style.width = "600px"
-document.getElementById("mode").style.height = "100px"
+// document.getElementById("mode").style.backgroundColor = "Orange"
+// document.getElementById("mode").style.maxWidth = "100%"
+// document.getElementById("mode").style.width = "600px"
+// document.getElementById("mode").style.height = "100px"
 
-setInterval(function() {
-    rootElement++ 
-    if(rootElement == '500px'){
-        rootElement = 0;
-        modeElement++
-    }
-}) 
+// setInterval(function() {
+//     rootElement++ 
+//     if(rootElement == '500px'){
+//         rootElement = 0;
+//         modeElement++
+//     }
+// }) 
+
