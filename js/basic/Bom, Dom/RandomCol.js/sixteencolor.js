@@ -24,6 +24,6 @@ for(let i = 0; i < 16; i++){
     newDiv.style.height = "198px"
     newDiv.style.backgroundColor = `rgb(${random},${random1},${random2})`;
     if (random3 == i){
-        newDiv.style.backgroundColor = `rgb(${random},${random1 - 30},${random2})`;
+        newDiv.style.backgroundColor = `rgb(${random},${random1 - 100},${random2})`;
     }
 }
