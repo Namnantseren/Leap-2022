@@ -4,10 +4,10 @@ all.style.flexWrap = "wrap"
 all.style.height = "800px"
 all.style.width = "800px"
 
-let = random = (Math.floor(Math.random() * 255)) //255-iin hoorond l 
-let = random1 = (Math.floor(Math.random() * 255)) //255-iin hoorond l
-let = random2 = (Math.floor(Math.random() * 255)) //255-iin hoorond l
-let = random3 = (Math.floor(Math.random() * 16)) //16-iin hoorond l
+let random = (Math.floor(Math.random() * 255)) //255-iin hoorond l 
+let random1 = (Math.floor(Math.random() * 255)) //255-iin hoorond l
+let random2 = (Math.floor(Math.random() * 255)) //255-iin hoorond l
+let random3 = (Math.floor(Math.random() * 16)) //16-iin hoorond l
 
 
 for(let i = 0; i < 16; i++){
