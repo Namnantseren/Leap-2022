@@ -10,7 +10,6 @@ function validation(inputs) {
         inputs.email.value.includes(".")
 
         return true;
-        console.log(true)
     }
 
     //жишээ хэрэглээ
