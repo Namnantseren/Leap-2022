@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mid {
+    max-width: 100%;
+    width: 700px;
+    max-height: 100%;
+    height: 600px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+.task {
+    width: 400px;
+    height: 50px;
+}
+
+.mid-todo {
+    padding: 50px 100px 0px 100px;
+    margin-bottom: 0;
+    height: 500px;
+}
+
+h1 {
+    color: blue;
+    padding-left: 150px;
+}
+
+.task::placeholder {
+    font-size: 20px;
+}
+
+#myBtn {
+    height: 56px;
+}
+
+.output {
+    width: 475px;
+    height: 50px;
+    background-color: gray;
+}
+
+.highTop {
+    border-top: 2px solid blue;
+    width: 477px;
+}
+
+ul {
+    padding: 0;
+}
