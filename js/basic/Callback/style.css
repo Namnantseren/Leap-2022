@@ -1,0 +1,38 @@
+body {
+    background: aqua;
+    height: 200vh;
+}
+
+.btn {
+    color: black;
+    width: 100px;
+    height: 50px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+p {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#progress {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#progress-value {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
