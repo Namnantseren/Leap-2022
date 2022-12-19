@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo list</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 <body>
     <div class="mid">
@@ -15,17 +18,29 @@
                 <p>Он сар өдөр: <label id="myDate"></label></p>
             </div>
             <div>
-                <form>
-                    <input class="task" type="text" placeholder="Таскын нэрээ оруулна уу.">
-                    <button id="myBtn">+ Нэмэх</button>
+                <form class="formField row  justify-space-between bg-light shadow" style="border-bottom: 2px solid rgb(244, 157, 26);">
+                    <input class="inputField p-3 pt-4 mb-2 border-0 bg-light col-9" placeholder="Таскаа оруулна уу" style="outline: none;">
+                    <div class="btn p-3 pt-4 border-0 col-3 rounded-0 fw-semibold" style="background-color: rgb(244, 157, 26); color: rgb(255, 255, 255);">+ нэмэх</div>
                 </form>
             </div>
             <h1>Жагсаалт</h1>
-            <div class="highTop">
-                <ul class="dynamic-list">
-                    
-                </ul>
+            <div class="list">
+                <div class="taskField shadow bg-light mb-1 row d-flex rounded" style="border: 1px solid rgb(244, 157, 26);">
+                    <input class="task  border-0 col-md-9 col-8 bg-transparent" disabled="" style="outline: none;">
+                    <div class="col-md-3 col-4 d-flex">
+                        <div class="editBtn btn">
+                            <i class="bi bi-pencil-fill text-primary"></i>
+                        </div>
+                        <div class="doneBtn btn">
+                            <i class="bi bi-check-square-fill text-secondary"></i>
+                        </div>
+                        <div class="delBtn btn">
+                            <i class="bi bi-trash-fill text-danger"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="footer bg-primary mt-5"></div>
         </div>
     </div>
     <script src="./todo.js"></script>
