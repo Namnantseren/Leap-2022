@@ -1,0 +1,18 @@
+body {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mid-door {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(7, 61, 7), black); 
+    border-radius: 20px;
+    border:2px solid purple;
+}
