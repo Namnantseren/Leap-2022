@@ -1,8 +1,5 @@
 body {
     height: 95vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #mid-door {
@@ -14,5 +11,87 @@ body {
     height: 200px;
     background: linear-gradient(to right, rgb(7, 61, 7), black); 
     border-radius: 20px;
-    border:2px solid purple;
+    border:2px solid black;
+    margin-top: 150px;
+    color: #f8f9fa;
+    position: relative;
+}
+
+#pass {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.result2 {
+    position: absolute;
+    top: 0;
+    height: 59px;
+    margin-top: 100px;
+    padding: 0;
+}
+.result1 {
+    position: absolute;
+    top: 0;
+    height: 59px;
+    margin-top: 100px;
+    padding: 0;
+    color: #f8f9fa;
+    display: none;
+}
+.result3 {
+    position: absolute;
+    top: 0;
+    height: 59px;
+    margin-top: 100px;
+    padding: 0;
+    color: #f8f9fa;
+    display: none;
+}
+.result4 {
+    position: absolute;
+    top: 0;
+    height: 59px;
+    margin-top: 100px;
+    padding: 0;
+    color: #f8f9fa;
+    display: none;
+}
+
+p {
+    color: #6c757d;
+}
+
+#snow {
+    top: 0;
+    position: absolute;
+    margin-top: 15px;
+}
+
+#bsnow {
+    bottom: 0;
+    position: absolute;
+}
+
+.p-2 {
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: rgb(5, 73, 5, .5);
+    border-radius: 20px;    
+    border: 1px solid black;
+    box-shadow:1px 1px 1px 1px black ;
+}
+
+.p-2:hover {
+    background-color: rgb(5, 73, 5, .3);
+}
+
+.p-2:active {
+    background-color: rgb(5, 73, 5, .1);
+}
+
+.air {
+    width: 400px;
+    height: 500px;
 }
