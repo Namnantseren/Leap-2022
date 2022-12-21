@@ -81,6 +81,33 @@ p {
     border-radius: 20px;    
     border: 1px solid black;
     box-shadow:1px 1px 1px 1px black ;
+    margin-left: 20px;
+}
+
+#psword {
+    height: 50px;
+    border: 0;
+    border-radius: 20px;
+}
+
+.prev {
+    height: 70px;
+    width: 100px;
+    background: linear-gradient(to right, rgb(26, 119, 26), rgb(25, 61, 10)); 
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.prev:hover {
+    opacity: 0.5;
+}
+
+.prev:active {
+    background-color: rgb(8, 60, 8);
+}
+
+button {
+    margin-top: 20px;
 }
 
 .p-2:hover {
@@ -94,4 +121,10 @@ p {
 .air {
     width: 400px;
     height: 500px;
+}
+
+@media screen and (max-width: 376px){
+    #string {
+        color: black;
+    }
 }
