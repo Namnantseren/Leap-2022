@@ -24,15 +24,20 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1920px;
   }
   
   .countries {
     /* margin-bottom: 8rem; */
     display: flex;
+    flex-wrap: wrap;
+
   
     font-size: 2rem;
     opacity: 0;
-    transition: opacity 5s;
+    /* transition: opacity 5s; */
   }
   
   .country {
