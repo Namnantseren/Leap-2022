@@ -26,6 +26,7 @@ function fetchImage(breedType) {
 
 select.addEventListener("change", () => {
     fetchImage(select.value);
+    // current = select.value;
 });
 
 
