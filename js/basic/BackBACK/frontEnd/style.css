@@ -1,0 +1,65 @@
+.usInter {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.card-body {
+    margin: 0;
+    padding: 0;
+}
+
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1100px;
+
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+}
+
+.search {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#buttn {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 50px;
+    width: 100px;
+}
+
+.searchF {
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.argin {
+    display: flex;
+    align-items: center;
+    bottom: 0;
+}
+
+a {
+    bottom: 0;
+}
